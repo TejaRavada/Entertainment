@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Enjoy on/Enjoy.css'
-// import video from '../../../../Assets/ntfimages/vediok.mp4'
+import video from '../../../../Assets/ntfimages/vediok.mp4'
 import Tv from '../../../../Assets/ntfimages/tv.png'
 const Enjoy = () => {
     return (
@@ -16,7 +16,7 @@ const Enjoy = () => {
                     <div className="enjoyVideo">
                         <div className="enjoyImg">
                             <img src={Tv} alt="" />
-                            <iframe
+                            {/* <iframe
                                 width="560"
                                 height="315"
                                 src="https://www.youtube.com/embed/asyMQ26ttuI?start=1196"
@@ -24,8 +24,8 @@ const Enjoy = () => {
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen
                                 title="YouTube video"
-                            ></iframe>
-                            {/* <video src={video} autoPlay loop muted></video> */}
+                            ></iframe> */}
+                            <video src={video} autoPlay loop muted></video>
                         </div>
                     </div>
                 </div>

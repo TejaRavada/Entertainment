@@ -1,5 +1,5 @@
 import React from 'react'
-// import video from '../../../../Assets/ntfimages/videom.mp4'
+import video from '../../../../Assets/ntfimages/videom.mp4'
 import device from '../../../../Assets/ntfimages/device-pile-in.png'
 import '../Watch/Watch.css'
 
@@ -16,7 +16,7 @@ const Watch = () => {
               <div className="watchVideo">
                   <div className="watchImg">
                       <img src={device} alt="" />
-                      {/* <video src={video} autoPlay loop muted ></video> */}
+                      <video src={video} autoPlay loop muted ></video>
                   </div>
               </div>
           </div>
