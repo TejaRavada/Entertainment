@@ -1,1 +1,4 @@
 node_modules/.cache/** filter=lfs diff=lfs merge=lfs -text
+*.pack filter=lfs diff=lfs merge=lfs -text
+node_modules/.cache/default-development/*.pack filter=lfs diff=lfs merge=lfs -text
+node_modules/.cache/babel-loader/*.json filter=lfs diff=lfs merge=lfs -text
