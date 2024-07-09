@@ -1,0 +1,33 @@
+.createText{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0 3%;
+}
+
+.createImg{
+    width: 50%;
+}
+
+.createImg img{
+    width: 100%;
+}
+.createText p{
+    font-size: 24px;
+    padding: 20px 0px;
+    font-weight: 400;
+}
+
+@media(max-width:1100px)
+{  
+    .createText{
+      width: 90%;
+      margin: auto;
+    }
+  
+    .createImg{
+      width: 100%;
+    }
+  }
